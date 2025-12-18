@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D88FF6F0A1BFD7DECAB0B7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629E8D36439F8403F739AED5 /* AuthService.swift */; };
+		06EA9961A9269C1BDA698D8F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD048F95CF7867818E8D743A /* User.swift */; };
+		07B103E6D47BEF53EF3DAE60 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928A9DA15A10C4314DE5D69 /* Post.swift */; };
+		0A209CA72C8FBBE0B85ED29A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E9DD63F6A88F2260E9405 /* Theme.swift */; };
+		1AEC57726AC2D8037F732B90 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B663226B1BC3A56900BB2594 /* Haptics.swift */; };
+		22183097B9BF484A758A5E32 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83CB35C1CA27264C6C72266 /* CardStackView.swift */; };
+		25AE17B17E8A6483118FE3DF /* SupabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54D8D289D23938BE560142 /* SupabaseClient.swift */; };
+		3D3C063F30CA2FAE47EB298F /* BasicInfoStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C10C4A7EB1BE693F4DAB2 /* BasicInfoStepView.swift */; };
+		6161D4ED37695890FAD7DCBB /* PromptsStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFBCC8A104E42FB2DE22B80 /* PromptsStepView.swift */; };
+		6513B97A614B98559A11F89E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD85F5ACA63BA3E875D79FD /* Constants.swift */; };
+		6A9B785A568485A90D542CEF /* GlassModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24558973AF29081149A36277 /* GlassModifiers.swift */; };
+		75CF9D82CFD2C8057A33A718 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4343678049BEDA0885E42 /* GlassCard.swift */; };
+		7F86E9103058814CE1149C69 /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68C277A9D41A5571C2F19B /* SwipeCardView.swift */; };
+		8221CE51031D3FA56254B39E /* GlassTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634AE86A9C5610DBE8AA13E9 /* GlassTabBar.swift */; };
+		8BB66B41CA200A9903F36757 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBEF3769F0A3DB8671AC1B1 /* SignUpView.swift */; };
+		9488215084B70CF14EFC0B20 /* PhotosStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D891B530EE4B65956F40FD4D /* PhotosStepView.swift */; };
+		A46FA693DECAB5F6408EEA10 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE4FC5F99AC7E91E517D474 /* WelcomeView.swift */; };
+		A80261BE74D23A1F7819DDAE /* NativeDatingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F212D384FA1E5E5B459B35 /* NativeDatingApp.swift */; };
+		ACAAB401F45EB99954AFDB3E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827126E26DD387344337ED1 /* LoginView.swift */; };
+		B3089CC55CC486F0D5A14A43 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6554F894C78E43CF2F43D /* MainTabView.swift */; };
+		B3134DCEB2090D3B1016DC90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36341C9897E7BCFA619AD69F /* ContentView.swift */; };
+		BC163395039B27A8A064069E /* GlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD9502FCD068B3B7F8F588B /* GlassButton.swift */; };
+		C024970CA5DCD841C504DC5F /* GlassTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E8A42E633A50D09D024C3A /* GlassTextField.swift */; };
+		C14C7C3DB13AE3CFD4DA70A6 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6FDD22A89713C28A66A8C1A7 /* Supabase */; };
+		C7A6401A9FF9EC7B81FADBE4 /* InterestsStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D73FA3AA1CBB249406663D /* InterestsStepView.swift */; };
+		F0D167E3E05DAB26CB7CC1DB /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EAD4E48A532C5E570DC6E4 /* Match.swift */; };
+		F20BEB16D325ABE6CC6BDDD9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA5E1DAF8FC844D97F2FA /* Message.swift */; };
+		F688BB3747E8A1A8CDF662C6 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E0665B36C0E0E9CCAC8E4 /* OnboardingContainerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CD618238F8F946BFA33754E /* SwiftDating.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SwiftDating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F212D384FA1E5E5B459B35 /* NativeDatingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeDatingApp.swift; sourceTree = "<group>"; };
+		1DFBCC8A104E42FB2DE22B80 /* PromptsStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptsStepView.swift; sourceTree = "<group>"; };
+		24558973AF29081149A36277 /* GlassModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassModifiers.swift; sourceTree = "<group>"; };
+		2DD85F5ACA63BA3E875D79FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30E8A42E633A50D09D024C3A /* GlassTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassTextField.swift; sourceTree = "<group>"; };
+		35CBA5E1DAF8FC844D97F2FA /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		36341C9897E7BCFA619AD69F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B1DB978AAC940A9B2D9030B /* SwiftDating.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDating.entitlements; sourceTree = "<group>"; };
+		40D73FA3AA1CBB249406663D /* InterestsStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsStepView.swift; sourceTree = "<group>"; };
+		5CD9502FCD068B3B7F8F588B /* GlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassButton.swift; sourceTree = "<group>"; };
+		5FE4343678049BEDA0885E42 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		629E8D36439F8403F739AED5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		634AE86A9C5610DBE8AA13E9 /* GlassTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassTabBar.swift; sourceTree = "<group>"; };
+		6928A9DA15A10C4314DE5D69 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6BBEF3769F0A3DB8671AC1B1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		703E0665B36C0E0E9CCAC8E4 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		89EAD4E48A532C5E570DC6E4 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		955E9DD63F6A88F2260E9405 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AE8C10C4A7EB1BE693F4DAB2 /* BasicInfoStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfoStepView.swift; sourceTree = "<group>"; };
+		B663226B1BC3A56900BB2594 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		BCE4FC5F99AC7E91E517D474 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C5B6554F894C78E43CF2F43D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CD048F95CF7867818E8D743A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D891B530EE4B65956F40FD4D /* PhotosStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosStepView.swift; sourceTree = "<group>"; };
+		E83CB35C1CA27264C6C72266 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		EF54D8D289D23938BE560142 /* SupabaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClient.swift; sourceTree = "<group>"; };
+		F827126E26DD387344337ED1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA68C277A9D41A5571C2F19B /* SwipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7057479DDA3A4118DF80DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14C7C3DB13AE3CFD4DA70A6 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04488E5D7C70D33E95FFE0D2 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				24558973AF29081149A36277 /* GlassModifiers.swift */,
+				955E9DD63F6A88F2260E9405 /* Theme.swift */,
+				2F9DB41E6950B8911C667B1B /* Components */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		18C07BB6487430F7951D7709 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				E9306275911701F0D128E91E /* Views */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		1EB620EBF7CF716827D01F72 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				6E9AE36B6BA84D339B9C7BC2 /* Views */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		1F73B3BA8B01CEDE8A06C903 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		237A6A0F00012A003BF578DD /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8E894F0240BDF9DEB8B53F96 /* Views */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		2F7D37508F693B0CD8891D23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F827126E26DD387344337ED1 /* LoginView.swift */,
+				6BBEF3769F0A3DB8671AC1B1 /* SignUpView.swift */,
+				BCE4FC5F99AC7E91E517D474 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F9DB41E6950B8911C667B1B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5CD9502FCD068B3B7F8F588B /* GlassButton.swift */,
+				5FE4343678049BEDA0885E42 /* GlassCard.swift */,
+				634AE86A9C5610DBE8AA13E9 /* GlassTabBar.swift */,
+				30E8A42E633A50D09D024C3A /* GlassTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		40A88EC39D2EE5DE12B34058 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C5B6554F894C78E43CF2F43D /* MainTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4383AE781A2C63E36615167E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CD618238F8F946BFA33754E /* SwiftDating.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D592B58D137A63226C2138E /* NativeDating */ = {
+			isa = PBXGroup;
+			children = (
+				3B1DB978AAC940A9B2D9030B /* SwiftDating.entitlements */,
+				6CD3FB9DFB30E4B3D0111F28 /* App */,
+				DA245B82139E52B9AFBC4DE7 /* Core */,
+				9A7107F90B4CBDFC587E9671 /* Features */,
+				BC12FE166E73EDF793D40916 /* Models */,
+				40A88EC39D2EE5DE12B34058 /* Navigation */,
+				CE15D8450EADB2FECD490D55 /* Resources */,
+				73C92095114B5E254EA4793F /* Services */,
+			);
+			path = NativeDating;
+			sourceTree = "<group>";
+		};
+		4E1DF192C8FBBA9FA6C23568 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C93B339FD364CDDCD504E334 /* Views */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		65E6BCACBF85366176B3A74E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FD12AFF5F57BCEF749690C4E /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6CD3FB9DFB30E4B3D0111F28 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				36341C9897E7BCFA619AD69F /* ContentView.swift */,
+				18F212D384FA1E5E5B459B35 /* NativeDatingApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6E9AE36B6BA84D339B9C7BC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73C92095114B5E254EA4793F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				629E8D36439F8403F739AED5 /* AuthService.swift */,
+				EF54D8D289D23938BE560142 /* SupabaseClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		752C819D856F5F8D6798A964 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		761D3E310E6073C1FFD7204E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2DD85F5ACA63BA3E875D79FD /* Constants.swift */,
+				B663226B1BC3A56900BB2594 /* Haptics.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7D7F699A3E7549B428757587 = {
+			isa = PBXGroup;
+			children = (
+				4D592B58D137A63226C2138E /* NativeDating */,
+				4383AE781A2C63E36615167E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8389AE77B4CDFDA9C7ECD658 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E83CB35C1CA27264C6C72266 /* CardStackView.swift */,
+				FA68C277A9D41A5571C2F19B /* SwipeCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8592BEE2B4B65EB6AB89AFB4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2F7D37508F693B0CD8891D23 /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8E894F0240BDF9DEB8B53F96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A7107F90B4CBDFC587E9671 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8592BEE2B4B65EB6AB89AFB4 /* Auth */,
+				18C07BB6487430F7951D7709 /* Browse */,
+				237A6A0F00012A003BF578DD /* Chat */,
+				EA28301E9E94D0FE8029AA96 /* Community */,
+				F132A7D942304489742EB10B /* Discover */,
+				1EB620EBF7CF716827D01F72 /* Matches */,
+				4E1DF192C8FBBA9FA6C23568 /* Onboarding */,
+				65E6BCACBF85366176B3A74E /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BC12FE166E73EDF793D40916 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89EAD4E48A532C5E570DC6E4 /* Match.swift */,
+				35CBA5E1DAF8FC844D97F2FA /* Message.swift */,
+				6928A9DA15A10C4314DE5D69 /* Post.swift */,
+				CD048F95CF7867818E8D743A /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C93B339FD364CDDCD504E334 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE8C10C4A7EB1BE693F4DAB2 /* BasicInfoStepView.swift */,
+				40D73FA3AA1CBB249406663D /* InterestsStepView.swift */,
+				703E0665B36C0E0E9CCAC8E4 /* OnboardingContainerView.swift */,
+				D891B530EE4B65956F40FD4D /* PhotosStepView.swift */,
+				1DFBCC8A104E42FB2DE22B80 /* PromptsStepView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE15D8450EADB2FECD490D55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA245B82139E52B9AFBC4DE7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04488E5D7C70D33E95FFE0D2 /* Design */,
+				752C819D856F5F8D6798A964 /* Extensions */,
+				761D3E310E6073C1FFD7204E /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E9306275911701F0D128E91E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA28301E9E94D0FE8029AA96 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				1F73B3BA8B01CEDE8A06C903 /* Views */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		F132A7D942304489742EB10B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				8389AE77B4CDFDA9C7ECD658 /* Views */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		FD12AFF5F57BCEF749690C4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4CC7617A06443D9D646C14E /* SwiftDating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8E7C514A7F18E596F61732 /* Build configuration list for PBXNativeTarget "SwiftDating" */;
+			buildPhases = (
+				CAC3940F1A8A20B8A2FC2C4A /* Sources */,
+				B7057479DDA3A4118DF80DFE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDating;
+			packageProductDependencies = (
+				6FDD22A89713C28A66A8C1A7 /* Supabase */,
+			);
+			productName = SwiftDating;
+			productReference = 0CD618238F8F946BFA33754E /* SwiftDating.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99702C07E6F34C750157A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A4CC7617A06443D9D646C14E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F543BD81EB481F7821DDCCD5 /* Build configuration list for PBXProject "SwiftDating" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7D7F699A3E7549B428757587;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0E1C3137A15E8D2430692581 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CC7617A06443D9D646C14E /* SwiftDating */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC3940F1A8A20B8A2FC2C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D88FF6F0A1BFD7DECAB0B7 /* AuthService.swift in Sources */,
+				3D3C063F30CA2FAE47EB298F /* BasicInfoStepView.swift in Sources */,
+				22183097B9BF484A758A5E32 /* CardStackView.swift in Sources */,
+				6513B97A614B98559A11F89E /* Constants.swift in Sources */,
+				B3134DCEB2090D3B1016DC90 /* ContentView.swift in Sources */,
+				BC163395039B27A8A064069E /* GlassButton.swift in Sources */,
+				75CF9D82CFD2C8057A33A718 /* GlassCard.swift in Sources */,
+				6A9B785A568485A90D542CEF /* GlassModifiers.swift in Sources */,
+				8221CE51031D3FA56254B39E /* GlassTabBar.swift in Sources */,
+				C024970CA5DCD841C504DC5F /* GlassTextField.swift in Sources */,
+				1AEC57726AC2D8037F732B90 /* Haptics.swift in Sources */,
+				C7A6401A9FF9EC7B81FADBE4 /* InterestsStepView.swift in Sources */,
+				ACAAB401F45EB99954AFDB3E /* LoginView.swift in Sources */,
+				B3089CC55CC486F0D5A14A43 /* MainTabView.swift in Sources */,
+				F0D167E3E05DAB26CB7CC1DB /* Match.swift in Sources */,
+				F20BEB16D325ABE6CC6BDDD9 /* Message.swift in Sources */,
+				A80261BE74D23A1F7819DDAE /* NativeDatingApp.swift in Sources */,
+				F688BB3747E8A1A8CDF662C6 /* OnboardingContainerView.swift in Sources */,
+				9488215084B70CF14EFC0B20 /* PhotosStepView.swift in Sources */,
+				07B103E6D47BEF53EF3DAE60 /* Post.swift in Sources */,
+				6161D4ED37695890FAD7DCBB /* PromptsStepView.swift in Sources */,
+				8BB66B41CA200A9903F36757 /* SignUpView.swift in Sources */,
+				25AE17B17E8A6483118FE3DF /* SupabaseClient.swift in Sources */,
+				7F86E9103058814CE1149C69 /* SwipeCardView.swift in Sources */,
+				0A209CA72C8FBBE0B85ED29A /* Theme.swift in Sources */,
+				06EA9961A9269C1BDA698D8F /* User.swift in Sources */,
+				A46FA693DECAB5F6408EEA10 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38D7276EFBA1206E5FB9DD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NativeDating/SwiftDating.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_NSCameraUsageDescription = "SwiftDating needs camera access to take profile photos";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "SwiftDating uses your location to find people nearby";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SwiftDating needs photo library access to select profile photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gregdeveloper1.SwiftDating;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7407E94BE8D32C2CCB1F7B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		97856482A45862F680243AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBBD06F2D5C6476EFFA33566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NativeDating/SwiftDating.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_NSCameraUsageDescription = "SwiftDating needs camera access to take profile photos";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "SwiftDating uses your location to find people nearby";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SwiftDating needs photo library access to select profile photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gregdeveloper1.SwiftDating;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8E7C514A7F18E596F61732 /* Build configuration list for PBXNativeTarget "SwiftDating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD06F2D5C6476EFFA33566 /* Debug */,
+				38D7276EFBA1206E5FB9DD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F543BD81EB481F7821DDCCD5 /* Build configuration list for PBXProject "SwiftDating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97856482A45862F680243AC7 /* Debug */,
+				7407E94BE8D32C2CCB1F7B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E1C3137A15E8D2430692581 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6FDD22A89713C28A66A8C1A7 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E1C3137A15E8D2430692581 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F99702C07E6F34C750157A77 /* Project object */;
+}
